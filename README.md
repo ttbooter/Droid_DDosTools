@@ -1,16 +1,19 @@
 Droid_DDosTools
 ----------------
 
-> ZhuZhiHao  > 2016-2-25  
+> ZhuZhiHao  2017-9-16  
 > 2016-4-17  
 
 - **不要用于非法行为！！**
 
 ### 啥
 - 几个简单的DDOS小程序。
-- [BoNeSi大规模网际流量模拟](./README.BoNesi.md)
 
 ### 编译
+- just run `make`
+
+OR compile each file by hand
+
 - `arm-linux-androideabi-gcc *.c -lpthread -o binary* `
 
 ### 安装
@@ -20,12 +23,8 @@ Droid_DDosTools
 - 试试看吧！
 - `which Chargen && Chargen`
 
-### TODO
-- 以后会有UI界面的，等一等吧...
-- 移植BoNeSi僵尸网络模拟/大规模网际流量模拟
-
 ### 关于我
-- [ZhuZhiHao|Linuxer+高中生](http://zhu-zhi-hao.github.io/)
+- [ZhuZhiHao|Linuxer+高中生](https://ihexon.github.io/)
 - NOTE：**我是单身狗**
 
 
