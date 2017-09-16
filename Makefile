@@ -9,8 +9,10 @@ OBJ_FILES := $(addprefix Bins/,$(notdir $(SRC_FILES:.c=.o)))
 # Output all objs into dir Bins/
 BINS_FILES := $(OBJ_FILES:.o=.bin)
 
-all :$(BINS_FILES):  $(OBJ_FILES)
-	gcc  -o $@ $^ $(LDFLAGS)
+all :$(BINS_FILES)
+
+Bins/%.bin: %.o
+	gcc -o $@ $< $(LDFLAGS)
 
 Bins/%.o: %.c
 	gcc  -c -o $@ $< $(LDFLAGS)
