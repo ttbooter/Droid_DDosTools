@@ -11,7 +11,7 @@ Droid_DDosTools
 - [BoNeSi大规模网际流量模拟](./README.BoNesi.md)
 
 ### 编译
-- `arm-linux-androideabi-gcc *.c -lpthread`
+- `arm-linux-androideabi-gcc *.c -lpthread -o binary* `
 
 ### 安装
 - 预编译可执行文件在`Droid_DDosTools/Bins`下，请将Bins文件夹及其文件移动到 Android `/data/data/` 下
